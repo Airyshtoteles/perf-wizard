@@ -19,7 +19,7 @@
 ## 📦 Installation
 
 ```bash
-npm install -g perf-wizard
+npm install -g perf-wizard@beta
 ```
 
 ## 🚀 Quick Start
