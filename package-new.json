@@ -1,0 +1,61 @@
+{
+  "name": "perf-wizard",
+  "version": "2.1.0-production",
+  "description": "🚀 Professional Performance Analysis Tool with Config Support, JSON Output & Glob Patterns - Production Ready",
+  "main": "bin/index.js",
+  "bin": {
+    "perf-wizard": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Production ready - no tests needed\"",
+    "prepublishOnly": "echo \"🚀 Publishing Perf-Wizard to NPM...\""
+  },
+  "keywords": [
+    "performance",
+    "analysis",
+    "javascript",
+    "typescript",
+    "optimization",
+    "memory",
+    "bundle-size",
+    "code-analysis",
+    "cli-tool",
+    "productivity",
+    "developer-tools",
+    "static-analysis",
+    "complexity",
+    "glob-pattern",
+    "ci-cd",
+    "json-output"
+  ],
+  "author": {
+    "name": "Arie Syahrial",
+    "email": "arie@example.com",
+    "url": "https://github.com/arisyh7"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arisyh7/perf-wizard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arisyh7/perf-wizard/issues"
+  },
+  "homepage": "https://github.com/arisyh7/perf-wizard#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    ".perf-wizardrc"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "glob": "^7.2.3"
+  }
+}

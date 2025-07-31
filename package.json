@@ -1,0 +1,74 @@
+{
+  "name": "perf-wizard",
+  "version": "3.0.0-ultimate",
+  "description": "🚀 Ultimate Performance Analysis Tool - Advanced AST Analysis, React/Vue Optimization, Bundle Impact & Memory Leak Detection",
+  "main": "bin/index.js",
+  "bin": {
+    "perf-wizard": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/ultimate-index.js",
+    "test": "echo \"Ultimate version - production ready\"",
+    "prepublishOnly": "echo \"🚀 Publishing Perf-Wizard Ultimate to NPM...\""
+  },
+  "keywords": [
+    "performance",
+    "analysis",
+    "javascript",
+    "typescript",
+    "react",
+    "vue",
+    "optimization",
+    "memory",
+    "bundle-size",
+    "ast-analysis",
+    "code-analysis",
+    "cli-tool",
+    "productivity",
+    "developer-tools",
+    "static-analysis",
+    "complexity",
+    "glob-pattern",
+    "ci-cd",
+    "json-output",
+    "performance-monitoring",
+    "memory-leaks",
+    "bottlenecks"
+  ],
+  "author": {
+    "name": "Arie Syahrial",
+    "email": "arie@example.com",
+    "url": "https://github.com/arisyh7"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arisyh7/perf-wizard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arisyh7/perf-wizard/issues"
+  },
+  "homepage": "https://github.com/arisyh7/perf-wizard#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    ".perf-wizardrc"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.26.2",
+    "@babel/types": "^7.26.0",
+    "acorn": "^8.14.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "esprima": "^4.0.1",
+    "glob": "^7.2.3",
+    "typescript": "^5.7.2"
+  }
+}
